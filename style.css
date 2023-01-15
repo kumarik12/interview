@@ -1,0 +1,243 @@
+* {
+    margin: o;
+    padding: o;
+}
+
+.form-box {
+    border: 2px solid rgb(231 228 228);
+    width: 400px;
+    height: 642px;
+    position: relative;
+    margin: 12px auto;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 8px 0px;
+    border-radius: 10px;
+
+}
+
+.pic img {
+    width: 138px;
+    height: 113px;
+    position: absolute;
+    top: 5px;
+    left: 127px;
+}
+
+.btn {
+    width: 23rem;
+    height: 36px;
+    position: absolute;
+    top: 130px;
+    left: 6%;
+}
+
+.toggle-btn {
+    padding: 10px 62px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: slab serif;
+    font-size: 19px;
+
+}
+
+#btn1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    border: none;
+    border-bottom: 3px solid rgb(218, 66, 11);
+    transition: 0.5s;
+}
+
+p {
+    color: rgb(117, 115, 115);
+    position: absolute;
+    top: 28.4rem;
+    left: 160px;
+    font-size: 17px;
+    font-family: emoji;
+}
+
+.input-group {
+    position: absolute;
+    top: 167px;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field {
+    width: 256px;
+    padding: 12px 0;
+    margin: 10px 0;
+    border: 1px solid rgb(130, 127, 127);
+    position: relative;
+    left: 59px;
+    border-radius: 18px;
+    top: 45px;
+}
+
+input[type=text] {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+input[type=Password] {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.input-field::placeholder {
+    position: relative;
+    left: 17px;
+}
+
+.input-group a {
+    color: rgb(230, 22, 74);
+    position: relative;
+    left: 75%;
+    top: 98px;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 8.5px 0;
+    border: 1px solid lightgray;
+    position: relative;
+    left: 61px;
+    border-radius: 18px;
+    top: 81px;
+    font-size: 17px;
+    background-color: rgb(230, 22, 74);
+    color: #f5f5f5;
+}
+
+.icon {
+    position: absolute;
+    left: 75.5px;
+    top: 31.5rem;
+}
+
+.text {
+    position: absolute;
+    top: 34rem;
+    left: 68px;
+}
+
+h5 {
+    font-size: 13px;
+    position: relative;
+    right: 3px;
+    top: 11px;
+    font-family: sans-serif;
+}
+
+.text h5 a {
+    color: rgb(230, 44, 75);
+    text-decoration: none;
+}
+
+.text h6 a {
+    color: rgb(230, 44, 75);
+}
+
+h6 {
+    position: relative;
+    bottom: 4px;
+    font-size: 12px;
+    right: 34px;
+    font-family: sans-serif;
+}
+
+.icon a {
+    padding: 16px;
+    border-radius: 48%;
+    background-color: #f5f6fa;
+    box-shadow: 1px 0px 6px -1px;
+    margin: 10px;
+}
+
+.icon img {
+    position: relative;
+    top: 12px;
+    width: 25px;
+    height: 32px;
+}
+
+#login {
+    left: 1px;
+}
+
+#Signup {
+    left: 480px;
+}
+
+
+.input-group1 {
+    position: absolute;
+    top: 183px;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field1 {
+    width: 256px;
+    padding: 9px 0;
+    margin: 10px 0;
+    border: 1px solid rgb(130, 127, 127);
+    position: relative;
+    left: 59px;
+    border-radius: 18px;
+    top: 8px;
+}
+
+input[type=text] {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+input[type=Password] {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.input-field1::placeholder {
+    position: relative;
+    left: 17px;
+}
+
+.input-group1 a {
+    color: rgb(230, 22, 74);
+    position: relative;
+    left: 75%;
+    top: 46px;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.input-group1 button {
+    width: 100%;
+    padding: 8.5px 0;
+    border: 1px solid lightgray;
+    position: relative;
+    left: 61px;
+    border-radius: 18px;
+    top: 35px;
+    font-size: 17px;
+    background-color: rgb(230, 22, 74);
+    color: #f5f5f5;
+}

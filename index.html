@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-box">
+        <div class="pic">
+            <img src="./react.jpeg.jpeg" alt="">
+        </div>
+        <div class="btn">
+            <div id="btn1"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="Signup()">Sign up</button>
+        </div>
+        <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="Email Address" required>
+            <input type="password" class="input-field" placeholder="Password" required>
+            <button>LOGIN</button>
+            <a href="#">Forget Password?</a>
+        </form>
+        <form id="Signup" class="input-group1">
+            <input type="text" class="input-field1" placeholder="Email Address" required>
+            <input type="password" class="input-field1" placeholder="New Password" required>
+            <input type="password" class="input-field1" placeholder="Comfirm Password" required>
+            <button>Sign up</button>
+            <a href="#">Forget Password?</a>
+        </form>
+        <footer>
+            <p>or login with </p>
+            <div class="icon"><a href="google.com"><img src="./ficon.jpeg.jpeg" alt=""></a>
+                <a href="facebook.com"><img src="./gicon.jpeg.jpeg" alt=""></a>
+                <a hef="www.twitter"><img src="./ticon.jpeg.jpeg" alt=""></a>
+            </div>
+            <div class="text">
+                <h5>Dont't have an account? <a href="#">Create an account!</a></h5>
+                <h6>By signing up, you are agree with our <a href="#">Terms & Conditions</a></h6>
+            </div>
+
+        </footer>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("Signup");
+        var z = document.getElementById("btn1");
+
+        function Signup() {
+            x.style.left = "-480px";
+            y.style.left = "1px";
+            z.style.left = "175px";
+        }
+        function login() {
+            x.style.left = "1px";
+            y.style.left = "480px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+
+</html>
